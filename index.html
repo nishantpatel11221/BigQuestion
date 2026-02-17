@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Big Question ❤️</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<section class="final">
+     <h1>U R V A S H I , P R A G Y A "  AND  " S H I V💖</h1>
+    <h2>rishikesh Chal lo yrr PLease 🥹 ?? 💖</h2>
+
+    <button onclick="yesClicked()">YES ❤️</button>
+    <button id="noBtn" onmouseover="moveButton()">NO 😜</button>
+
+    <h2 id="result"></h2>
+</section>
+
+<script>
+function yesClicked() {
+    document.getElementById("result").innerText =
+    "Yayyyy! I love you so much  💖🔥";
+}
+
+function moveButton() {
+    let btn = document.getElementById("noBtn");
+    btn.style.position = "absolute";
+    btn.style.top = Math.random() * window.innerHeight + "px";
+    btn.style.left = Math.random() * window.innerWidth + "px";
+}
+</script>
+
+</body>
+</html>
