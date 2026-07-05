@@ -1,1 +1,1 @@
-this code is asking for my friends to come with me RISHIKESH
+This code is asking for my friends to come with me RISHIKESH
